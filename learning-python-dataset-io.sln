@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "learning-python-dataset-io", "learning-python-dataset-io.pyproj", "{886D5267-4E45-471C-9630-90FC36B15935}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{886D5267-4E45-471C-9630-90FC36B15935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{886D5267-4E45-471C-9630-90FC36B15935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A87E68E0-D4CD-433E-914E-AFBAE1D9EA1B}
+	EndGlobalSection
+EndGlobal
