@@ -1,5 +1,12 @@
 import example_module
 
+# Single-line comment
+
+"""
+	Multi-line comment!
+	Python Style guide at: https://www.python.org/dev/peps/pep-0008/
+"""
+
 print("Whoa, it just works??")
 print(example_module.test_method())
 
