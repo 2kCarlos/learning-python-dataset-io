@@ -25,3 +25,19 @@ for i in range(nameLength):
 	print("name[" + str(i) + "] = " + name[i])
 print("\n")
 
+import os
+
+file_name = input("What file would you like to check? ")
+while not os.path.exists(file_name):
+	print(file_name + " does not exist.")
+	file_name = input("What file would you like to check? ")
+print("\n")
+
+assert os.path.exists(file_name)
+print("Opening file...")
+
+with open(file_name) as file:
+	file_data = file.read()
+	print("\n\n\n")
+	print(file_data)
+	print("\n\n\n")
