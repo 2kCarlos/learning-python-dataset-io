@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>886d5267-4e45-471c-9630-90fc36b15935</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>nosql_test.py</StartupFile>
+    <StartupFile>mongodb\query.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,9 +25,12 @@
     <Compile Include="example_module.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="nosql_test.py">
+    <Compile Include="mongodb\query.py">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="mongodb\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
