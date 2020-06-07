@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>886d5267-4e45-471c-9630-90fc36b15935</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>main.py</StartupFile>
+    <StartupFile>nosql_test.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   <ItemGroup>
     <Compile Include="main.py" />
     <Compile Include="example_module.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="nosql_test.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
